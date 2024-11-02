@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    font-family: "Inter", serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h4{
+    color: white;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play img{
+    width: 24.95px;
+    height: 24.93px;
+}
+
+.i img{
+    width: 10px;
+    height: 10px;
+}
+
+.p{
+    background-color: orange;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container1{
+    background-color: rgb(42, 41, 41);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.flex-container1 p{
+    color: white;
+}
+
+
+
+.pc-console{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 300px;
+}
+
+
+.i1{
+    background-image: url("./image\ 5\ \(2\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+
+.pc{
+    width: 235px;
+    background: #F1A900;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.console{
+    width: 235px;
+    background: black;
+    color: white;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.pc:hover{
+    background-color: black;
+    color: white;
+}
+
+.console:hover{
+    background-color: #F1A900;
+    color: black;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    background: #F1A90054;
+    width: 966px;
+    height: 202px;
+}
+
+.flex-container3{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 220px;
+    padding: 30px;
+}
+
+.a2{
+    gap: 40px;
+    display: flex;
+}
